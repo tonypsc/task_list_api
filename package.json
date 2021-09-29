@@ -1,0 +1,29 @@
+{
+	"name": "task_api",
+	"version": "1.0.0",
+	"description": "rest api for task list test",
+	"main": "src/bin/www.js",
+	"scripts": {
+		"dev": "nodemon src/bin/www.js",
+		"test": "jest"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"mongoose": "^6.0.8",
+		"morgan": "^1.10.0"
+	},
+	"devDependencies": {
+		"eslint": "^7.32.0",
+		"eslint-config-airbnb-base": "^14.2.1",
+		"eslint-config-google": "^0.14.0",
+		"eslint-config-standard": "^16.0.3",
+		"eslint-plugin-import": "^2.24.1",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^5.1.0",
+		"jest": "^27.1.0",
+		"nodemon": "^2.0.7"
+	}
+}
